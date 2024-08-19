@@ -1,0 +1,5 @@
+precioComida = float(input())
+print(float(precioComida))
+print(round((float((precioComida)*0.085)),2))
+print(round(float((precioComida)*0.10),2))
+print(round(float((precioComida)*0.10)+(float(precioComida)*0.085)+float(precioComida),2))
